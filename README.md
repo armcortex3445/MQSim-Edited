@@ -27,10 +27,7 @@ $ MQSim.exe -i <SSD Configuration File> -w <Workload Definition File>
 2. precondition of MQ Sim operates, when Ideal mapping setting of sdd configration is ideal. 
 3. FLIN Algorithm[3] is partially implemented till 2 stage. you can use FLIN policy of TSU.
 4. CIF Algorithm for improving overhead of FLIN Algorithm is added. you can use CIF policy of TSU.  
-5. trace file format used in MQ sim is changed. If you use trace-based workload, you must know this.
-	previous format : [Request_Arrival_Time] [Device_Number] [Starting_Logical_Sector_Address] [Request_Size_In_Sectors] [Type_of_Requests[0 for write, 1 for read]]
-	current format  : [Request_Arrival_Time]\t[Device_Number]\t[Starting_Logical_Sector_Address]\t[Request_Size_In_Sectors]\t[Type_of_Requests[0 for write, 1 for read]]
-	- space is change to tab.
+
 
 ## MQSim Execution Configurations 
 You can get information from https://github.com/CMU-SAFARI/MQSim 
