@@ -70,6 +70,7 @@
     <ClCompile Include="src\ssd\Queue_Probe.cpp" />
     <ClCompile Include="src\ssd\Stats.cpp" />
     <ClCompile Include="src\ssd\TSU_Base.cpp" />
+    <ClCompile Include="src\ssd\TSU_CIF.cpp" />
     <ClCompile Include="src\ssd\TSU_FLIN.cpp" />
     <ClCompile Include="src\ssd\TSU_OutofOrder.cpp" />
     <ClCompile Include="src\ssd\TSU_Priority_OutofOrder.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="src\ssd\SSD_Defs.h" />
     <ClInclude Include="src\ssd\Stats.h" />
     <ClInclude Include="src\ssd\TSU_Base.h" />
+    <ClInclude Include="src\ssd\TSU_CIF.h" />
     <ClInclude Include="src\ssd\TSU_FLIN.h" />
     <ClInclude Include="src\ssd\TSU_OutofOrder.h" />
     <ClInclude Include="src\ssd\TSU_Priority_OutofOrder.h" />

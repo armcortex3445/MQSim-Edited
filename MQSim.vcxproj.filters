@@ -211,6 +211,7 @@
     <ClCompile Include="src\host\SATA_HBA.cpp">
       <Filter>host</Filter>
     </ClCompile>
+    <ClCompile Include="src\ssd\TSU_CIF.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\exec\Device_Parameter_Set.h">
@@ -474,5 +475,6 @@
     <ClInclude Include="src\ssd\Host_Interface_NVMe_Priorities.h">
       <Filter>ssd</Filter>
     </ClInclude>
+    <ClInclude Include="src\ssd\TSU_CIF.h" />
   </ItemGroup>
 </Project>
