@@ -20,7 +20,7 @@ namespace SSD_Components
 	*
 	* - Overview of CIF Algorithm.
 	* CIF Algorithm purposes to reduce overhead of reordering Transaction in FLIN Algorithm.
-	* CIF Algorithm just uses count of transacion from flow in Queue. By using count, reordering Tranaction occurs.
+	* CIF Algorithm just uses count of transacions from flow in Queue. By using count, reordering Tranaction occurs.
 	* High intensity flow will insert a lot of transactions in Queue. on the other hands,Low intensity flow will insert a few of ones.
 	* for fairness imprvoement, CIF Algorithm moves transacion from flow inserting a few of transactions to head.
 	* moving steps is calculated by difference between average count of transaction of flow in Queue and count of transaction of low intensity flow in Queue.

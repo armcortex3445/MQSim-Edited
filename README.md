@@ -24,7 +24,7 @@ $ MQSim.exe -i <SSD Configuration File> -w <Workload Definition File>
 
 ## Edited point.
 1. memory leak problem is solved
-2. precondition of MQ Sim operates, when Ideal mapping setting of sdd configration is ideal. 
+2. precondition of MQ Sim operates, when Ideal mapping setting of sdd configration is true. 
 3. FLIN Algorithm[3] is partially implemented till 2 stage. you can use FLIN policy of TSU.
 4. CIF Algorithm for improving overhead of FLIN Algorithm is added. you can use CIF policy of TSU.  
 
